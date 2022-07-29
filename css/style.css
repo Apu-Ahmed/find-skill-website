@@ -9,3 +9,27 @@
     background: #000;
     opacity: 0.7;
 }
+
+.banner-head-font {
+    font-size: 2rem;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .context-font-size {
+        font-size: .9rem;
+    }
+
+    .banner-head-font {
+        font: 1.5rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .banner-head-font {
+        font-size: 1.2rem;
+    }
+
+    .context-font-size {
+        font-size: .6rem;
+    }
+}
